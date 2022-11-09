@@ -90,3 +90,23 @@ body {
     height: 100vh;
     display: table;
 }
+
+#blockKon{
+    display: none;
+    height: 100vh;
+    background-color: whitesmoke;
+    color: #393E46;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+.d-table{
+    display: table;
+    margin: auto;
+    height: 100%;
+}
+.d-t-cell{
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+}
