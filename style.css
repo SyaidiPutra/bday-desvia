@@ -1,32 +1,92 @@
-.bamper{
+@font-face {
+    font-family: 'Gensin';
+    src: url('./font/zh-cn.ttf');
+}
+
+.bamper {
     position: relative;
     width: 100vw;
     height: 100vh;
     overflow: hidden;
 }
-.bamper::after{
+
+.bamper::after {
     content: "";
     position: absolute;
     width: 100%;
     height: 100%;
-    background: linear-gradient(0deg, #393E46 0%, #393e4600 50%);
+    background: linear-gradient(0deg, #393E46 0%, #00000070 50%);
 }
-#bata,#guit,#hero{
+
+#bata,
+#guit,
+#hero {
     bottom: -80px;
 }
-body{
+
+body {
     margin: 0;
     padding: 0;
-    overflow-x:hidden;
+    overflow-x: hidden;
 }
-.bamper>img{
+
+.bamper>img {
     position: absolute;
     width: 100vw;
 }
-#bg2{
+
+#bg2 {
     top: -10px;
 }
-.div-1{
+
+.div-1 {
     background: linear-gradient(0deg, #393E4600 20%, #393e46 100%);
+    height: 50vh;
+}
+
+#text>.box {
+    display: table-cell;
+    text-align: end;
+    vertical-align: middle;
+    padding: 0 300px;
+    z-index: 100;
+}
+
+#text {
+    position: absolute;
+    display: table;
+    height: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.font {
+    font-family: 'Gensin';
+}
+
+.text-putih {
+    color: white;
+}
+
+.judul {
+    font-size: 3rem;
+}
+
+.tangah {
+    text-align: center;
+}
+
+.full-ditenagh>div {
+    height: 100%;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.full-ditenagh {
+    margin: 0;
     height: 100vh;
+    display: table;
 }
