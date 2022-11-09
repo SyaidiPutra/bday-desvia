@@ -1,0 +1,16 @@
+.bamper{
+    position: relative;
+    width: 100vw;
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+}
+.bamper>img{
+    position: absolute;
+    width: 100vw;
+}
+#bg2{
+    top: -10px;
+}
