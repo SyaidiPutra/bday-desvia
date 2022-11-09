@@ -4,6 +4,9 @@
     height: 100vh;
     overflow: hidden;
 }
+#bata,#guit,#hero{
+    bottom: -80px;
+}
 body{
     margin: 0;
     padding: 0;
