@@ -5,5 +5,6 @@ let guit = document.querySelector('#guit')
 let bata = document.querySelector('#bata')
 
 document.addEventListener('scroll', function () {
-    console.log(scrollY.toString)
+    var loc_Y = window.scrollY
+    console.log(loc_Y)
 })
