@@ -4,6 +4,13 @@
     height: 100vh;
     overflow: hidden;
 }
+.bamper::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, #393E46 0%, #393e4600 50%);
+}
 #bata,#guit,#hero{
     bottom: -80px;
 }
@@ -20,6 +27,6 @@ body{
     top: -10px;
 }
 .div-1{
-    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(0deg, #393E4600 20%, #393e46 100%);
     height: 100vh;
 }
